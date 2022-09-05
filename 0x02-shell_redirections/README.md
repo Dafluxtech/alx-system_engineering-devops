@@ -11,3 +11,5 @@
 5 script that displays the first 10 lines of /etc/passwd.
 
 6 script that displays the third line of the file iacta.
+
+7 script that creates a file and the file contains a text ending by a new line.
