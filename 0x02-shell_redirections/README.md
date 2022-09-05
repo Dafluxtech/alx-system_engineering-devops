@@ -15,3 +15,5 @@
 7 script that creates a file and the file contains a text ending by a new line.
 
 8 script that writes into a file.
+
+9 scripts that duplicate the last line.
