@@ -7,3 +7,5 @@
 3 script that displays the content of /etc/passwd and /etc/hosts.
 
 4 script that displays the last 10 lines of /etc/passwd.
+
+5 script that displays the first 10 lines of /etc/passwd.
