@@ -45,3 +45,5 @@
 22 a script that displays all users and their home directories, sorted by users.
 
 23 a command that finds all empty files and directories in the current directory and all sub-directories.
+
+24 a script that lists all the files with a .gif extension in the current directory and all its sub-directories.
