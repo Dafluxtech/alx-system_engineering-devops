@@ -23,3 +23,5 @@
 11 script that counts directories and subdrirectories.
 
 12 script that displays newest files
+
+13 script that takes a list of words as input and prints only words that appear exactly once.
