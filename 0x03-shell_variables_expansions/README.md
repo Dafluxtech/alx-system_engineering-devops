@@ -13,3 +13,5 @@
 6 a script that creates a new local variable.
 
 7 a script that creates a new global variable.
+
+8 script that prints the result of the addition of 128 with variable TRUEKNOWLEDGE.
