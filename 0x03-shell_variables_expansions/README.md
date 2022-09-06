@@ -17,3 +17,5 @@
 8 script that prints the result of the addition of 128 with variable TRUEKNOWLEDGE.
 
 9 script that prints the result of POWER divided by DIVIDE on a new line.
+
+10 a script that displays the result of BREATH to the power LOVE.
