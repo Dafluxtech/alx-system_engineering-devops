@@ -27,3 +27,5 @@
 13  script that prints a number with two decimal places,and stores in variable.
 
 14 a script that converts a number from base 10 to base 16.
+
+15 script that encodes and decodes text using the rot13 encryption.
