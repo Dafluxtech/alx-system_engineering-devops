@@ -7,7 +7,7 @@
 
 By: Sylvain Kalache
 
-**Repository**: `holberton-system_engineering-devops`
+**Repository**: `alx-system_engineering-devops`
 **Directory**: `0x0A-configuration_management`
 
 ## Background Context
@@ -25,6 +25,7 @@ Thanks to Puppet, we were able to restore our infrastructure to normal operation
 Obviously writing Puppet code for your infrastructure requires an investment of time and energy, but in the long term, it is for sure a must-have.
 
 
+![image](That was me ^_^‘: https://twitter.com/devopsreact/status/836971570136375296)
 
 Note on Versioning
 
