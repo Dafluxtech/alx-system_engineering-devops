@@ -139,7 +139,7 @@ File: `0-transfer_file`
 
 Readme:
 
-* [-y on apt-get command](https://askubuntu.com/questions/672892/what-does-y-mean-in-apt-get-y-install-command)
+* [-y on apt-get command](https://intranet.alxswe.com/rltoken/KJiFZ4yJyTGp_cv3DYQLaQ)
 
 Web servers are the piece of software generating and serving HTML pages, let’s install one!
 
@@ -147,13 +147,22 @@ Requirements:
 
 * Install nginx on your web-01 server
 * Nginx should be listening on port 80
-* When querying Nginx at its root / with a GET request (requesting a page) using curl, it must return a page that contains the string Holberton School
+* When querying Nginx at its root / with a GET request (requesting a page) using curl, it must return a page that contains the string Hello World!
 * As an answer file, write a Bash script that configures a new Ubuntu machine to respect above requirements
+* you can't use systewctl for restarting nginx
 
-Example:
 ```
+Server terminal:
+
+root@sy-web-01$ ./1-install_nginx_web_server > /dev/null 2>&1
+root@sy-web-01$ 
+root@sy-web-01$ curl localhost
+Hello World!
+root@sy-web-01$ 
+Local terminal:
+
 sylvain@ubuntu$ curl 34.198.248.145/
-Holberton School for the win!
+Hello World!
 sylvain@ubuntu$ curl -sI 34.198.248.145/
 HTTP/1.1 200 OK
 Server: nginx/1.4.6 (Ubuntu)
@@ -172,6 +181,8 @@ In this example 34.198.248.145 is the IP of my web-01 server. If you want to que
 
 If things are not going as expected, make sure to check out Nginx logs, they can be found in /var/log/.
 
+GitHub repository: `alx-system_engineering-devops`
+Directory: `0x0C-web_server`
 File: `1-install_nginx_web_server`
 
 ### TASK 2
@@ -277,3 +288,18 @@ sylvain@ubuntu$
 ```
 
 File: `4-not_found_page_404`
+
+### TASK 5
+
+Install Nginx web server (w/ Puppet)
+
+Time to practice configuring your server with Puppet! Just as you did before, we’d like you to install and configure an Nginx server using Puppet instead of Bash. To save time and effort, you should also include resources in your manifest to perform a 301 redirect when querying /redirect_me.
+
+Requirements:
+
+* Nginx should be listening on port 80
+* When querying Nginx at its root / with a GET request (requesting a page) using curl, it must return a page that contains the string Hello World!
+* The redirection must be a “301 Moved Permanently”
+* Your answer file should be a Puppet manifest containing commands to automatically configure an Ubuntu machine to respect above requirements
+
+File: `7-puppet_install_nginx_web_server.pp`
