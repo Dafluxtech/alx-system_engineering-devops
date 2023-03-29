@@ -202,11 +202,11 @@ Requirement:
 Example:
 ```
 sylvain@ubuntu$ cat 2-setup_a_domain_name
-holbertonschool.tech
+myschool.tech
 sylvain@ubuntu$
-sylvain@ubuntu$ dig holbertonschool.tech
+sylvain@ubuntu$ dig myschool.tech
 
-; <<>> DiG 9.10.6 <<>> holbertonschool.tech
+; <<>> DiG 9.10.6 <<>> myschool.tech
 ;; global options: +cmd
 ;; Got answer:
 ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 26785
@@ -215,10 +215,10 @@ sylvain@ubuntu$ dig holbertonschool.tech
 ;; OPT PSEUDOSECTION:
 ; EDNS: version: 0, flags:; udp: 512
 ;; QUESTION SECTION:
-;holbertonschool.tech.      IN  A
+;myschool.tech.      IN  A
 
 ;; ANSWER SECTION:
-holbertonschool.tech.   7199    IN  A   184.72.193.201
+myschool.tech.   7199    IN  A   184.72.193.201
 
 ;; Query time: 65 msec
 ;; SERVER: 8.8.8.8#53(8.8.8.8)
@@ -227,6 +227,7 @@ holbertonschool.tech.   7199    IN  A   184.72.193.201
 
 sylvain@ubuntu$
 ```
+When your domain name is setup, please verify the Registrar here:(https://intranet.alxswe.com/rltoken/UVCb6LeF54ktxR6lZSUyTQ) and you must see in the JSON response:(https://intranet.alxswe.com/projects/266#task-3830:~:text=%22registrarName%22%3A%20%22Dotserve%20Inc%22)
 
 File: `2-setup_a_domain_name`
 
