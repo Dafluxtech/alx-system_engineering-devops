@@ -1,4 +1,5 @@
 #!/usr/bin/env/bash
+
 # A Bash script to transfer file from a client to a server.
 # Accepts 4 parameters:
 #    The path to the file to be transferred.
