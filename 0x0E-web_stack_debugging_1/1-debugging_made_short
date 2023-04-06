@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
-# a bash script similar to task 0 but
-# less code lines are used for it.
-
+# a bash script similar to task 0 but less code lines are used for it.
 sed -i "s/8080/80/g" /etc/nginx/sites-enabled/default
 sudo service nginx restart
 echo "" > /run/nginx.pid
