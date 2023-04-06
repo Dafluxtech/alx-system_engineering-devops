@@ -2,9 +2,6 @@
 # a bash script similar to task 0 but
 # less code lines are used for it.
 
-if ! service nginx status | grep -q "active (running)"; then
-	apt-get update
-	apt-get -y install nginx
-	sed -i 's/#.*listen 80;/listen 80;/g' /etc/nginx/sites-available/default
-	systemctl restart nginx
-fi
+sed -i "s/8080/80/g" /etc/nginx/sites-enabled/default
+sudo service nginx restart
+echo "" > /run/nginx.pid
