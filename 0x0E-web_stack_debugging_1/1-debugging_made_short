@@ -2,6 +2,5 @@
 # a bash script similar to task 0 but
 # less code lines are used for it.
 
-ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
-service nginx restart
-kill "$(pgrep 'nginx' | head -1)"
+sudo ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+sudo service nginx restart
