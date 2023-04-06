@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# a bash script that restores the default server port 80
+# delete the existing ../sites-enabled/default and replace
+# it with a copy of ../sites-available/default by 
+# creating a symbolic link. The flag -s is used to
+# create the symbolic link.
+
+sudo ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+sudo service nginx start
