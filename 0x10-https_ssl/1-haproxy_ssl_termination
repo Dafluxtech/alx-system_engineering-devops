@@ -33,19 +33,19 @@ defaults
         errorfile 503 /etc/haproxy/errors/503.http
         errorfile 504 /etc/haproxy/errors/504.http
 
-frontend dafluxgroup-http
+frontend dafluxgroup-tech-http
         bind *:80
         mode http
-        http-request set-header X-Forwarded-Proto http
-        default_backend dafluxgroup-backend
+        http-request set-header X_Forwarded-Proto http
+        default_backend dafluxgroup-tech-backend
 
-frontend dafluxgroup-frontend-https
+frontend dafluxgroup-tech-frontend-https
         bind *:443 ssl crt /etc/haproxy/certs/www.dafluxgroup.tech.pem
         http-request set-header X-Forwarded-Proto https
-        default_backend dafluxgroup-backend
+        default_backend dafluxgroup-tech-backend
 
-backend dafluxgroup-backend
+backend dafluxgroup-tech-backend
         balance roundrobin
-        server 143607-web-01 54.175.198.234 check
-        server 143607-web-02 54.90.19.199 check
+        server 143607-web-01 54.175.198.234:80 check
+        server 143607-web-02 54.90.19.199:80 check
 
