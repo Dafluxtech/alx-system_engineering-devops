@@ -68,7 +68,7 @@ Gliffy is free and what I personally use, but feel free to use what fits you bes
 Some unrelated examples:
 
 
-[image](http://i.imgur.com/i9ivkdo.png)
+![image](http://i.imgur.com/i9ivkdo.png)
 
 2. Contribute!
 
