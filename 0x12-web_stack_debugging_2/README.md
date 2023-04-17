@@ -18,8 +18,9 @@
 + The first line of all your Bash scripts should be exactly #!/usr/bin/env bash
 + The second line of all your Bash scripts should be a comment explaining what is the script doing
 
-## TASKS:cabinet:
+## TASKS:file:
 0. Run software as another user
+
 ![image](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/eaeff07a715ff880b1ceb8e863a1d141a74a7f85.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230417%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230417T224724Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=6c5b3b67b893bc97a84838992cc814365224d13998549366890073ed8bbd9e10)
 
 
