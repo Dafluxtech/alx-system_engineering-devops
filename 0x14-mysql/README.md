@@ -233,7 +233,8 @@ Example:
 	File: 4-mysql_configuration_primary, 4-mysql_configuration_replica
     
 5. MySQL backup
-![image](https://www.youtube.com/watch?v=ANU-oSE5_hU)
+
++ https://www.youtube.com/watch?v=ANU-oSE5_hU
 
 What if the data center where both your primary and replica database servers are hosted are down because of a power outage or even worse: flooding, fire? Then all your data would inaccessible or lost. That’s why you want to backup and store them in a different system in another physical location. This can be achieved by dumping your MySQL data, compressing them and storing them in a different data center.
 
