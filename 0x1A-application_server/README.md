@@ -21,11 +21,9 @@ Read or watch:
 * [route](https://intranet.hbtn.io/rltoken/JLjrXD4MLS3rUkQr5QyxtA)
 * [Upstart documentation](https://intranet.hbtn.io/rltoken/oQPs-o5UUcZkxOw5sNIM0g)
 
+![](https://cdn.educba.com/academy/wp-content/uploads/2019/04/What-is-Application-Server-1.1.png)
 
-
-
-![](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2018/9/c7d1ed0a2e10d1b4e9b3.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230517%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230517T132117Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=c2b97a99052b22042594faf063c041b7b20ce39fe40f1c6ed292e4829b9596f4)
-
+![](https://cdn.educba.com/academy/wp-content/uploads/2019/04/What-is-Application-Server-1.jpg.webp)
 
 Your web infrastructure is already serving web pages via Nginx that you installed in [your first web stack project](https://github.com/sammykingx/alx-system_engineering-devops/tree/master/0x0C-web_server). While a web server can also serve dynamic content, this task is usually given to an application server. In this project you will add this piece to your infrastructure, plug it to your __Nginx__ and make is serve your __Airbnb clone project.__
 
