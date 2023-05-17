@@ -21,9 +21,6 @@ Read or watch:
 * [route](https://intranet.hbtn.io/rltoken/JLjrXD4MLS3rUkQr5QyxtA)
 * [Upstart documentation](https://intranet.hbtn.io/rltoken/oQPs-o5UUcZkxOw5sNIM0g)
 
-![](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2018/9/c7d1ed0a2e10d1b4e9b3.jpg)
-
-
 
 ![](https://cdn.educba.com/academy/wp-content/uploads/2019/04/What-is-Application-Server-1.jpg.webp)
 
